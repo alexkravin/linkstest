@@ -1,0 +1,77 @@
+Invoking Maven for the goals: [site] with properties={linkcheck.skip=true}
+
+M2_HOME=/home/asus/apps/apache-maven-3.2.3
+MAVEN_OPTS=null
+JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre/..
+JAVA_OPTS=null
+
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building links 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:site (default-site) @ links ---
+[INFO] configuring report plugin org.apache.maven.plugins:maven-javadoc-plugin:2.10.1
+[INFO] preparing 'javadoc' report requires 'generate-sources' forked phase execution
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc > generate-sources @ links >>>
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc < generate-sources @ links <<<
+[INFO] configuring report plugin org.apache.maven.plugins:maven-linkcheck-plugin:1.2
+[WARNING] Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:2.7
+[WARNING] No project URL defined - decoration links will not be relativized!
+[INFO] Rendering site with org.apache.maven.skins:maven-default-skin:jar:1.0 skin.
+[INFO] Validation is switched on, xml input documents will be validated!
+[INFO] Rendering 1 Doxia document: 1 xdoc
+[INFO] Generating "JavaDocs" report             --- maven-javadoc-plugin:2.10.1:javadoc
+[WARNING] Source files encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] 
+Loading source files for package com...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_65
+Building tree for all the packages and classes...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/MyClass.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/package-frame.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/package-summary.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/package-tree.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/constant-values.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/src-html/com/MyClass.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/class-use/MyClass.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/com/package-use.html...
+Building index for all the packages and classes...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/overview-tree.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/index-all.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/allclasses-frame.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/allclasses-noframe.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/index.html...
+Generating /home/asus/sources/links/target/linkcheck/tmpsite/apidocs/help-doc.html...
+[INFO] Generating "About" report                --- maven-project-info-reports-plugin:2.7:index
+[INFO] Generating "Plugin Management" report    --- maven-project-info-reports-plugin:2.7:plugin-management
+[INFO] Generating "Distribution Management" report --- maven-project-info-reports-plugin:2.7:distribution-management
+[INFO] Generating "Dependency Information" report --- maven-project-info-reports-plugin:2.7:dependency-info
+[INFO] Generating "Source Repository" report    --- maven-project-info-reports-plugin:2.7:scm
+[INFO] Generating "Mailing Lists" report        --- maven-project-info-reports-plugin:2.7:mailing-list
+[INFO] Generating "Issue Tracking" report       --- maven-project-info-reports-plugin:2.7:issue-tracking
+[INFO] Generating "Continuous Integration" report --- maven-project-info-reports-plugin:2.7:cim
+[INFO] Generating "Project Plugins" report      --- maven-project-info-reports-plugin:2.7:plugins
+[INFO] Generating "Project License" report      --- maven-project-info-reports-plugin:2.7:license
+[INFO] Generating "Project Team" report         --- maven-project-info-reports-plugin:2.7:project-team
+[INFO] Generating "Project Summary" report      --- maven-project-info-reports-plugin:2.7:summary
+[INFO] Generating "Dependencies" report         --- maven-project-info-reports-plugin:2.7:dependencies
+[INFO] Rendering 1 generated Doxia document: 1 xdoc
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.282 s
+[INFO] Finished at: 2015-02-09T16:39:43+04:00
+[INFO] Final Memory: 31M/339M
+[INFO] ------------------------------------------------------------------------
