@@ -14,6 +14,6 @@ public class MyClass
     
     public MyClass(String some, int value)
     {
-        
+        // TODO: Introduce helpers in DetailAST
     }
 }
